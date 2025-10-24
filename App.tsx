@@ -1,8 +1,7 @@
-
 import React, { useState, useCallback, useMemo } from 'react';
 import { HashRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { User, UserRole } from './types';
-import { USERS } from './data/mock';
+import { USERS } from './data/mock.ts';
 
 import Dashboard from './pages/Dashboard';
 import Clientes from './pages/Clientes';
